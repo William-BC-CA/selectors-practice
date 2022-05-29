@@ -1,0 +1,8 @@
+li:first-of-type + li{
+    color: red;
+}
+
+li + p{
+    color: green;
+    background-color: yellow;
+}
