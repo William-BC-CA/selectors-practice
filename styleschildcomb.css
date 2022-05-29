@@ -5,3 +5,7 @@ span{
 div > span {
     background-color: dodgerblue;
 }
+
+div > p {
+    background-color: rgb(255, 114, 114);
+}
