@@ -6,30 +6,55 @@ h2 {
     margin: 4rem 0 0 0;
 }
 
-div#xvl-container a:link { color: red; }
-div#xvl-container a:visited { color: green; }
-
-div#xchk-container input[type=radio]:checked + label {
-    color: blue;
+div#xnch-container li:nth-child(2) {
+    color: red;
 }
 
-div#xnot-container div:not(#container) {
-        color: blue;
-    }
-
-div#xnot-container * *:not(p) {
-    color: green;
+div#xnlch-container li:nth-last-child(2) {
+    color: red;
 }
 
-div#xpsel-container p::first-line {
+div#xntp-container ul:nth-of-type(3) {
+    border: 1px solid black;
+}
+
+div#xnltp-container ul:nth-last-of-type(3) {
+    border: 1px solid black;
+} 
+
+div#xflch-container ul {
+    background: #292929;
+    color: white;
+    list-style: none;
+    padding-left: 0;
+}
+
+div#xflch-container li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid #3c3c3c;
+}
+
+div#xflch-container li:first-child {
+    border-top: none;
+}
+
+div#xflch-container li:last-child {
+    border-bottom: none;
+}
+
+div#xoch-container div p:only-child {
+    color: red;
+}
+
+div#xot-container div p:only-of-type {
+    color: red;
+}
+
+div#xot-container li:only-of-type {
     font-weight: bold;
-    font-size: 1.2em;
 }
 
-div#xpsel-container p::first-letter {
-    float: left;
+div#xfot-container ul:first-of-type > li:nth-child(2) {
     font-weight: bold;
-    font-family: cursive;
-    font-size: 2em;
-    padding-right: 2px;
 }
