@@ -1,10 +1,12 @@
 # selectors-practice
 Practice on Selectors for HTML.
 
-index.html -> Descendent Combinator
-index2.html -> Child Combinator
-index3.html -> Adjacent sibling combinator
-index4.html -> General Sibling Selectors
-index5.html -> Advanced Selectors
-index6.html -> Pseudo Selectors
-index7.html -> Nth Child and Type Selectors
+<ul>
+    <li>index.html -> Descendent Combinator</li>
+    <li>index2.html -> Child Combinator</li>
+    <li>index3.html -> Adjacent sibling combinator</li>
+    <li>index4.html -> General Sibling Selectors</li>
+    <li>index5.html -> Advanced Selectors</li>
+    <li>index6.html -> Pseudo Selectors</li>
+    <li>index7.html -> Nth Child and Type Selectors</li>
+</ul>
